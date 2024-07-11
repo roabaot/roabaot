@@ -3,7 +3,7 @@ import styles from "../style";
 
 const Portfolio = () => {
   return (
-    <section className={`${styles.marginY}`}>
+    <section id="portfolio" className={`${styles.marginY}`}>
       <div className="absolute z-[0] w-[60%] h-[60%] -left-[50%] rounded-full blue__gradient" />
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
@@ -17,9 +17,9 @@ const Portfolio = () => {
       </div>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-12 ss:gap-8 gap-4 bg-black-gradient-2 rounded-[20px] box-shadow p-8">
-        {projects.map((card) => (
+        {projects.map((card, i) => (
           <a
-            key={card.id}
+            key={i}
             href={card.link}
             target="_blank"
             className="card-project p-4 cursor-pointer hover:scale-105 active:scale-110 transition ease-in-out duration-500"

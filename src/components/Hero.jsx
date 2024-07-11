@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot, man1, man2, man3 } from "../assets";
+import { man } from "../assets";
 import GetStarted from "./GetStarted";
 import { linkedin, github } from "../assets/index";
 
@@ -51,7 +51,7 @@ const Hero = () => (
 
     <div className={`relative flex flex-1 ${styles.flexCenter}`}>
       <img
-        src={man3}
+        src={man}
         alt="robot"
         className="w-[100%] lg:h-[100%] h-[100%] relative z-[5]"
       />

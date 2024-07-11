@@ -1,17 +1,5 @@
 import styles from "./style";
-import {
-  Navbar,
-  Hero,
-  Stats,
-  Business,
-  Billing,
-  CardDeal,
-  Testimonials,
-  Clients,
-  CTA,
-  Footer,
-  Portfolio,
-} from "./components";
+import { Navbar, Hero, Footer, Portfolio } from "./components";
 import Langs from "./components/Langs";
 
 const App = () => {
@@ -35,13 +23,6 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Langs />
           <Portfolio />
-          {/* <Stats /> */}
-          {/* <Business />
-          <Billing />
-          <CardDeal />
-          <Testimonials />
-          <Clients />
-          <CTA /> */}
           <Footer />
         </div>
       </div>

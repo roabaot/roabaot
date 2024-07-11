@@ -6,13 +6,13 @@ import { navLinks } from "../constants";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar z-30">
+    <nav className="w-full flex py-6 justify-between items-center navbar z-50 relative">
       {/* <img src={logo} alt="handbook" className="w-[124px] h-[32px]" /> */}
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
-            key={nav}
+            key={index}
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white nav-link transition ease-in-out duration-500 ${
               index == navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}

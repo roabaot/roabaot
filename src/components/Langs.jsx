@@ -14,8 +14,8 @@ const Langs = () => {
         <h1 className={styles.heading2}>My Skills</h1>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 w-full feedback-container relative z-[1]">
-        {langs.map((card) => (
-          <LangCard key={card.id} {...card} />
+        {langs.map((card, i) => (
+          <LangCard key={i} {...card} />
         ))}
       </div>
     </section>
