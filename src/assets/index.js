@@ -23,7 +23,7 @@ import wafy from "./wafy.webp";
 import Express from "./langs/Express.webp";
 import Next from "./langs/Next.webp";
 import Node from "./langs/Node.webp";
-import Nuxt from "./langs/Nuxt.webp";
+import Nuxt from "./langs/nuxt.webp";
 import PWA from "./langs/PWA.webp";
 import React from "./langs/React.webp";
 import Tailwind from "./langs/Tailwind.webp";
